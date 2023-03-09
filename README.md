@@ -67,8 +67,6 @@ En el siguiente paso, debemos indicarle la memoria principal (RAM) que tendrá n
 
 Todos los formatos presentados son válidos para nuestro uso. Básicamente las principales características de estos son que VDI es el formato predeterminado de VirtualBox, VMDK separa el disco en archivos de 2GB de tamaño, ya que esto es necesario para algunos sistemas de archivos y VHD tiene compatibilidad con otros sistemas de virtualización, por lo que si quieres usar la máquina en otros sistemas, esta puede ser la mejor opción para ti. 
 
-En mi caso he seleccionado VDI, ya que no necesitaba de ninguna de las dos características anteriormente mencionadas de las otras alternativas. Se nos presentan dos opciones para la creación del disco duro virtual. Básicamente nos pregunta si queremos que el archivo sea reservado dinámicamente, es decir, que el espacio ocupado en cada momento por la máquina virtual sea el tamaño del archivo, o que tenga un tamaño fijo en nuestro equipo en base a un tamaño seleccionado más adelante. La opción recomendada es usar el disco reservado dinámicamente para que este no esté ocupando espacio innecesario en el disco:
-
 Como hemos destacado anteriormente, le tendremos que dar un tamaño al disco. Ubuntu recomienda usar al menos 25GB, pero esto dependerá del uso que le vayas a dar y de los archivos que vayas a guardar dentro de tu máquina virtual. En nuestro caso hemos seleccionado 30GB:
 
 En este punto ya tenemos creada nuestra máquina virtual con las opciones seleccionadas en los pasos anteriores. En la pantalla principal podemos ver como aparecen todas las características que hemos seleccionado en el proceso de creación de la máquina, aunque nos faltan algunas cosas por configurar. 
