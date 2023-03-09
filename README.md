@@ -10,14 +10,14 @@ Puede utilizarse en ordenadores y servidores. Está orientado al usuario promedi
  
 ## Como puedo instalarlo?
 
-1. Descargar VirtualBox
+### 1. Descargar VirtualBox
 
 • Se puede descargar VirtualBox 
 con el siguiente enlace:
 
 https://www.virtualbox.org/wiki/Downloads
 
-2. Instalar VirtualBox
+### 2. Instalar VirtualBox
 
 • Una vez descargado, diríjete a la localización del paquete en tu
 equipo (generalmente en el directorio “Descargas”) y ejecútalo
@@ -25,7 +25,7 @@ como administrador haciendo clic derecho.
 
 • Comienza la instalación y espera hasta su finalización.
 
-3. Descargar una Imagen ISO
+### 3. Descargar una Imagen ISO
 
 Los archivos ISO proporcionan una imagen completa de un CD o DVD.
 Montar una imagen ISO en VirtualBox ofrece la misma experiencia que
@@ -47,41 +47,58 @@ En esta ocasión, usaremos la imagen ISO de la distribución “Ubuntu”,
 una de las más populares y de uso extendido. Puede ser descargada a
 través de los recuros que encontramos en google.
 
-4. Montar una máquina virtual Ubuntu
+### 4. Montar una máquina virtual Ubuntu
 
 1- Una vez instalado e iniciado VirtualBox, crearemos la máquina virtual pulsando el icono de «Nueva».
 
-VirtualBox nos pedirá que introduzcamos el nombre de la máquina virtual junto con el tipo y la versión que vayamos a usar. En este caso el tipo será «Linux» y la versión será «Ubuntu (64-bit)». El nombre puedes introducir el que quieras. Este será el que te permita identificar tu máquina virtual en caso de tener más de una. Además de esto, te permite introducir la carpeta donde alojar los archivos de la máquina virtual. Puedes elegir la carpeta que quieras, en mi caso he dejado la que nos indica VirtualBox por defecto.
+VirtualBox nos pedirá que introduzcamos el nombre de la máquina virtual junto con el tipo y la versión que vayamos a usar. En este caso el tipo será «Linux» y la versión será «Ubuntu (64-bit)». 
+
+El nombre puedes introducir el que quieras. Este será el que te permita identificar tu máquina virtual en caso de tener más de una. Además de esto, te permite introducir la carpeta donde alojar los archivos de la máquina virtual. Puedes elegir la carpeta que quieras, en mi caso he dejado la que nos indica VirtualBox por defecto.
 
 2- En el siguiente paso, debemos indicarle la memoria principal (RAM) que tendrá nuestra máquina virtual. En este caso Ubuntu recomienda escoger un tamaño mínimo de 2048MB (2GB) para sistemas virtualizados para que todo funcione correctamente.
 
-3- En segundo lugar, VirtualBox nos pedirá como configurar el disco duro. En este caso crearemos un disco virtual. El resultado de este paso será creación de un archivo que simulará el disco duro de tu máquina virtual. Como podemos ver en la segunda imagen, nos preguntará que tipo de archivo de disco duro queremos usar. Todos los formatos presentados son válidos para nuestro uso. Básicamente las principales características de estos son que VDI es el formato predeterminado de VirtualBox, VMDK separa el disco en archivos de 2GB de tamaño, ya que esto es necesario para algunos sistemas de archivos y VHD tiene compatibilidad con otros sistemas de virtualización, por lo que si quieres usar la máquina en otros sistemas, esta puede ser la mejor opción para ti. En mi caso he seleccionado VDI, ya que no necesitaba de ninguna de las dos características anteriormente mencionadas de las otras alternativas. En la tercera imagen vemos el siguiente paso. Se nos presentan dos opciones para la creación del disco duro virtual. Básicamente nos pregunta si queremos que el archivo sea reservado dinámicamente, es decir, que el espacio ocupado en cada momento por la máquina virtual sea el tamaño del archivo, o que tenga un tamaño fijo en nuestro equipo en base a un tamaño seleccionado más adelante. La opción recomendada es usar el disco reservado dinámicamente para que este no esté ocupando espacio innecesario en el disco:
+3- En segundo lugar, VirtualBox nos pedirá como configurar el disco duro. En este caso crearemos un disco virtual. El resultado de este paso será creación de un archivo que simulará el disco duro de tu máquina virtual. Como podemos ver en la segunda imagen, nos preguntará que tipo de archivo de disco duro queremos usar. 
+
+Todos los formatos presentados son válidos para nuestro uso. Básicamente las principales características de estos son que VDI es el formato predeterminado de VirtualBox, VMDK separa el disco en archivos de 2GB de tamaño, ya que esto es necesario para algunos sistemas de archivos y VHD tiene compatibilidad con otros sistemas de virtualización, por lo que si quieres usar la máquina en otros sistemas, esta puede ser la mejor opción para ti. 
+
+En mi caso he seleccionado VDI, ya que no necesitaba de ninguna de las dos características anteriormente mencionadas de las otras alternativas. Se nos presentan dos opciones para la creación del disco duro virtual. Básicamente nos pregunta si queremos que el archivo sea reservado dinámicamente, es decir, que el espacio ocupado en cada momento por la máquina virtual sea el tamaño del archivo, o que tenga un tamaño fijo en nuestro equipo en base a un tamaño seleccionado más adelante. La opción recomendada es usar el disco reservado dinámicamente para que este no esté ocupando espacio innecesario en el disco:
 
 Como hemos destacado anteriormente, le tendremos que dar un tamaño al disco. Ubuntu recomienda usar al menos 25GB, pero esto dependerá del uso que le vayas a dar y de los archivos que vayas a guardar dentro de tu máquina virtual. En nuestro caso hemos seleccionado 30GB:
 
-En este punto ya tenemos creada nuestra máquina virtual con las opciones seleccionadas en los pasos anteriores. En la pantalla principal podemos ver como aparecen todas las características que hemos seleccionado en el proceso de creación de la máquina, aunque nos faltan algunas cosas por configurar. Los puntos que nos quedan por completar, se configurarán en el proceso de instalación del sistema operativo. La forma de iniciar este proceso será accediendo al menú «Configuración».
+En este punto ya tenemos creada nuestra máquina virtual con las opciones seleccionadas en los pasos anteriores. En la pantalla principal podemos ver como aparecen todas las características que hemos seleccionado en el proceso de creación de la máquina, aunque nos faltan algunas cosas por configurar. 
 
-4-  Pulsaremos en «Almacenamiento». Una vez aquí, pulsaremos donde pone vacío, justo debajo de «Controlador: IDE». Nos aparecerá una sección a la derecha. Aquí pulsaremos en el disco azul de la derecha del todo y haremos click en «Seleccionar un archivo de disco». Buscaremos el archivo de Ubuntu que nos hemos descargado anteriormente y pulsaremos en «Aceptar».
+Los puntos que nos quedan por completar, se configurarán en el proceso de instalación del sistema operativo. La forma de iniciar este proceso será accediendo al menú «Configuración».
+
+4-  Pulsaremos en «Almacenamiento». Una vez aquí, pulsaremos donde pone vacío, justo debajo de «Controlador: IDE». Nos aparecerá una sección a la derecha. Aquí pulsaremos en el disco azul de la derecha del todo y haremos click en «Seleccionar un archivo de disco». 
+
+Buscaremos el archivo de Ubuntu que nos hemos descargado anteriormente y pulsaremos en «Aceptar».
 Activar la virtualización
 
 Para poder usar una máquina virtual tienes que activar la virtualización en tu equipo. Normalmente esto ya viene activado por defecto, pero no siempre es el caso. Puedes proceder con los siguientes pasos, pero si en algún momento te pide activarlo puedes buscar como hacerlo en los manuales de tu equipo, o buscar en la BIOS la opción «Intel Virtualization Technology» si tu ordenador cuenta con un procesador Intel o «SVM Mode» si tu ordenador cuenta con un procesador AMD de tu ordenador y activarlo.
-Instalación del Ubuntu
+
+#### Instalación del Ubuntu
 
 5- El último paso para poder disfrutar de un sistema operativo Linux en nuestra máquina virtual es la instalación del sistema operativo. Para comenzar dicha instalación debemos seleccionar ,»Iniciar», teniendo marcada la máquina virtual configurada anteriormente.
 
 6- Se abrirá una ventana de inicio del sistema operativo. Normalmente al principio hace un chequeo de errores en el disco. Simplemente tenemos que dejar que este termine.
 
-Antes de iniciar la instalación, cabe destacar que puede que en algún momento no veamos el ratón fuera de la ventana de VirtualBox. Esto puede ocurrir debido a que el programa captura nuestro ratón como si perteneciese a la máquina virtual que estamos instalando. Para poder usar el ratón fuera de nuestra máquina virtual debemos pulsar la tecla «Control» de la derecha del teclado.
+Antes de iniciar la instalación, cabe destacar que puede que en algún momento no veamos el ratón fuera de la ventana de VirtualBox. Esto puede ocurrir debido a que el programa captura nuestro ratón como si perteneciese a la máquina virtual que estamos instalando. 
+
+Para poder usar el ratón fuera de nuestra máquina virtual debemos pulsar la tecla «Control» de la derecha del teclado.
 
 Cuando el chequeo termine, obtendremos la pantalla mostrada en la siguiente imagen. En ella nos pregunta si queremos probar o directamente instalar Ubuntu. Pulsaremos en probarlo y más adelante lo instalaremos. Cabe destacar que puedes elegir el idioma que prefieras seleccionándolo a la izquierda.
 
-7- Se iniciará Ubuntu. Ahora mismo lo podríamos usar como si ya estuviese instalado, pero nada de esto se nos guardaría, por lo que vamos a proceder a instalarlo. Antes de esto, para hacer más cómoda la instalación, vamos a cambiar la resolución de la ventana para poder verla a un tamaño normal. Para esto pulsaremos en los tres iconos de arriba a la derecha y en el menú desplegable que aparece pulsaremos en «Configuración» como vemos en la siguiente imagen:
+7- Se iniciará Ubuntu. Ahora mismo lo podríamos usar como si ya estuviese instalado, pero nada de esto se nos guardaría, por lo que vamos a proceder a instalarlo. Antes de esto, para hacer más cómoda la instalación, vamos a cambiar la resolución de la ventana para poder verla a un tamaño normal. 
 
-8- Una vez se abra la configuración, en el menú de la izquierda bajaremos hasta encontrar el apartado «Monitores». Pulsaremos y nos saldrán 4 opciones que modificar. En este caso nos centraremos en la resolución, la cual puedes cambiar a tu gusto. Recomendamos usar 1024×728 ya que es una resolución aceptable para la instalación y suele ser más pequeña que la mayoría de monitores por lo que no supondrá un problema el reproducirla en una ventana.
+Para esto pulsaremos en los tres iconos de arriba a la derecha y en el menú desplegable que aparece pulsaremos en «Configuración» como vemos en la siguiente imagen:
+
+8- Una vez se abra la configuración, en el menú de la izquierda bajaremos hasta encontrar el apartado «Monitores». Pulsaremos y nos saldrán 4 opciones que modificar. En este caso nos centraremos en la resolución, la cual puedes cambiar a tu gusto.
 
 Tras cambiar la resolución, si todo se ve correctamente, le indicamos que queremos «Mantener cambios» y cerramos la ventana de configuración.
 
-8- Una vez de nuevo en el escritorio, veremos un icono llamado «Instalar Ubuntu 20.04.1 LTS». Pulsaremos sobre él para la iniciar la instalación. En el instalador como vemos en las siguientes imágenes, lo primero que nos pedirá será el idioma y la configuración del teclado. Normalmente, si estás conectado a internet ambos se detectarán automáticamente, pero si quieres otra configuración, podrás cambiarla sin ningún problema.
+8- Una vez de nuevo en el escritorio, veremos un icono llamado «Instalar Ubuntu 20.04.1 LTS». Pulsaremos sobre él para la iniciar la instalación. En el instalador como vemos en las siguientes imágenes, lo primero que nos pedirá será el idioma y la configuración del teclado. 
+
+Normalmente, si estás conectado a internet ambos se detectarán automáticamente, pero si quieres otra configuración, podrás cambiarla sin ningún problema.
 
 9- En el siguiente paso nos preguntará qué tipo de instalación queremos hacer. En este caso seleccionaremos la instalación normal, con actualizaciones de Ubuntu. Puede que al realizar este paso, la ventana se vuelva pequeña de nuevo. Si esto es así, sin cerrar la ventana de instalación, vuelve a realizar los pasos que se indicaron antes para cambiar la resolución.
 
