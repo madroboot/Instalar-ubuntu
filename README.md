@@ -36,7 +36,7 @@ Por lo tanto, es necesario contar primero con la Imagen ISO del sistema
 operativo que desea montar como máquina virtual en VirtualBox. Para
 esto, utilizaremos el ISO :
 
-ubuntu-22.04.2-desktop-amd64.iso --> https://releases.ubuntu.com/jammy/
+[ubuntu-22.04.2-desktop-amd64.iso] (https://releases.ubuntu.com/jammy/)
 
 Aunque tambien podemos usar cualquiera de lista de sistemas operativos libres,
 pertenecientes a la familia de distribuciones Linux:
