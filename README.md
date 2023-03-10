@@ -55,7 +55,7 @@ Una vez instalado e iniciado VirtualBox, crearemos la máquina virtual pulsando 
 
 VirtualBox nos pedirá que introduzcamos el nombre de la máquina virtual junto con el tipo y la versión que vayamos a usar. En este caso el tipo será «Linux» y la versión será «Ubuntu (64-bit)». 
 
-El nombre puedes introducir el que quieras. Este será el que te permita identificar tu máquina virtual en caso de tener más de una. Además de esto, te permite introducir la carpeta donde alojar los archivos de la máquina virtual. Puedes elegir la carpeta que quieras, en mi caso he dejado la que nos indica VirtualBox por defecto.
+El nombre puedes introducir el que quieras. Este será el que te permita identificar la máquina virtual en caso de tener más de una. Además de esto, te permite introducir la carpeta donde alojar los archivos de la máquina virtual. 
 
  #### 2.)
 
@@ -65,7 +65,7 @@ En el siguiente paso, debemos indicarle la memoria principal (RAM) que tendrá n
 
  En segundo lugar, VirtualBox nos pedirá como configurar el disco duro. En este caso crearemos un disco virtual. El resultado de este paso será creación de un archivo que simulará el disco duro de tu máquina virtual. Como podemos ver en la segunda imagen, nos preguntará que tipo de archivo de disco duro queremos usar. 
 
-Todos los formatos presentados son válidos para nuestro uso. Básicamente las principales características de estos son que VDI es el formato predeterminado de VirtualBox, VMDK separa el disco en archivos de 2GB de tamaño, ya que esto es necesario para algunos sistemas de archivos y VHD tiene compatibilidad con otros sistemas de virtualización, por lo que si quieres usar la máquina en otros sistemas, esta puede ser la mejor opción para ti. 
+Todos los formatos presentados son válidos para nuestro uso. Básicamente las principales características de estos son que VDI es el formato predeterminado de VirtualBox.
 
 En este punto ya tenemos creada nuestra máquina virtual con las opciones seleccionadas en los pasos anteriores. En la pantalla principal podemos ver como aparecen todas las características que hemos seleccionado en el proceso de creación de la máquina, aunque nos faltan algunas cosas por configurar. 
 
