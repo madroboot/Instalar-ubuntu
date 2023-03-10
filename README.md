@@ -80,7 +80,7 @@ Activar la virtualización
 
 Para poder usar una máquina virtual tienes que activar la virtualización en tu equipo. Normalmente esto ya viene activado por defecto, pero no siempre es el caso. Puedes proceder con los siguientes pasos, pero si en algún momento te pide activarlo puedes buscar como hacerlo en los manuales de tu equipo, o buscar en la BIOS la opción «Intel Virtualization Technology» si tu ordenador cuenta con un procesador Intel o «SVM Mode» si tu ordenador cuenta con un procesador AMD de tu ordenador y activarlo.
 
-### Instalación del Ubuntu en el ordenador
+### 5. Instalación del Ubuntu en el ordenador
 
 #### 5.)
 
