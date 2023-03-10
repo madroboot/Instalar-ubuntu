@@ -57,6 +57,8 @@ VirtualBox nos pedirá que introduzcamos el nombre de la máquina virtual junto 
 
 El nombre puedes introducir el que quieras. Este será el que te permita identificar la máquina virtual en caso de tener más de una. Además de esto, te permite introducir la carpeta donde alojar los archivos de la máquina virtual. 
 
+![paso 1](ubuntu1png.png)
+
  #### 2.)
 
 En el siguiente paso, debemos indicarle la memoria principal (RAM) que tendrá nuestra máquina virtual. En este caso Ubuntu recomienda escoger un tamaño mínimo de 2048MB (2GB) para sistemas virtualizados para que todo funcione correctamente.
