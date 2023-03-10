@@ -63,7 +63,7 @@ El nombre puedes introducir el que quieras. Este será el que te permita identif
 
 En el siguiente paso, debemos indicarle la memoria principal (RAM) que tendrá nuestra máquina virtual. En este caso Ubuntu recomienda escoger un tamaño mínimo de 2048MB (2GB) para sistemas virtualizados para que todo funcione correctamente.
 
-![paso 1](file:///home/serira/VirtualBox VMs/ubuntu/ubuntu2.png)
+![paso 1](ubuntu2.png)
 
 #### 3.)
 
@@ -75,7 +75,7 @@ En este punto ya tenemos creada nuestra máquina virtual con las opciones selecc
 
 Los puntos que nos quedan por completar, se configurarán en el proceso de instalación del sistema operativo. La forma de iniciar este proceso será accediendo al menú «Configuración».
 
-![paso 1]()
+![paso 1](ubuntu3.png)
 
 #### 4.)
 
@@ -86,7 +86,7 @@ Activar la virtualización
 
 Para poder usar una máquina virtual tienes que activar la virtualización en tu equipo. Normalmente esto ya viene activado por defecto, pero no siempre es el caso. Puedes proceder con los siguientes pasos, pero si en algún momento te pide activarlo puedes buscar como hacerlo en los manuales de tu equipo, o buscar en la BIOS la opción «Intel Virtualization Technology» si tu ordenador cuenta con un procesador Intel o «SVM Mode» si tu ordenador cuenta con un procesador AMD de tu ordenador y activarlo.
 
-![paso 1]()
+![paso 1](ubuntu4.png)
 
 ### 5. Instalación del Ubuntu en el ordenador
 
@@ -94,7 +94,7 @@ Para poder usar una máquina virtual tienes que activar la virtualización en tu
 
  El último paso para poder disfrutar de un sistema operativo Linux en nuestra máquina virtual es la instalación del sistema operativo. Para comenzar dicha instalación debemos seleccionar ,»Iniciar», teniendo marcada la máquina virtual configurada anteriormente.
 
-![paso 1]()
+![paso 1](ubuntu5.png)
 
 #### 6.)
 
@@ -106,7 +106,7 @@ Para poder usar el ratón fuera de nuestra máquina virtual debemos pulsar la te
 
 Cuando el chequeo termine, obtendremos la pantalla mostrada en la siguiente imagen. En ella nos pregunta si queremos probar o directamente instalar Ubuntu. Pulsaremos en probarlo y más adelante lo instalaremos. Cabe destacar que puedes elegir el idioma que prefieras seleccionándolo a la izquierda.
 
-![paso 1]()
+![paso 1](ubuntu6.png)
 
 #### 7.)
 
@@ -114,7 +114,7 @@ Se iniciará Ubuntu. Ahora mismo lo podríamos usar como si ya estuviese instala
 
 Para esto pulsaremos en los tres iconos de arriba a la derecha y en el menú desplegable que aparece pulsaremos en «Configuración» como vemos en la siguiente imagen:
 
-![paso 1]()
+![paso 1](ubuntu7.png)
 
 #### 8.)
 
@@ -122,7 +122,7 @@ Una vez se abra la configuración, en el menú de la izquierda bajaremos hasta e
 
 Tras cambiar la resolución, si todo se ve correctamente, le indicamos que queremos «Mantener cambios» y cerramos la ventana de configuración.
 
-![paso 1]()
+![paso 1](ubuntu8.png)
 
 #### 9.)
 
@@ -130,7 +130,7 @@ Una vez de nuevo en el escritorio, veremos un icono llamado «Instalar Ubuntu 20
 
 Normalmente, si estás conectado a internet ambos se detectarán automáticamente, pero si quieres otra configuración, podrás cambiarla sin ningún problema.
 
-![paso 1]()
+![paso 1](ubuntu paso 9.png)
 
 #### 10.) 
 
