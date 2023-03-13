@@ -130,7 +130,7 @@ Una vez de nuevo en el escritorio, veremos un icono llamado «Instalar Ubuntu 20
 
 Normalmente, si estás conectado a internet ambos se detectarán automáticamente, pero si quieres otra configuración, podrás cambiarla sin ningún problema.
 
-![paso 1](ubuntu paso 9.png)
+![paso 1](ubuntupaso9.png)
 
 #### 10.) 
 
