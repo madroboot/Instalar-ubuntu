@@ -77,16 +77,15 @@ Los puntos que nos quedan por completar, se configurarán en el proceso de insta
 
 ![paso 1](ubuntu3.png)
 
+![paso 1](ubuntu4.png)
+
+![paso 1](ubuntu5.png)
+
 #### 4.)
 
- Pulsaremos en «Almacenamiento». Una vez aquí, pulsaremos donde pone vacío, justo debajo de «Controlador: IDE». Nos aparecerá una sección a la derecha. Aquí pulsaremos en el disco azul de la derecha del todo y haremos click en «Seleccionar un archivo de disco». 
+Para poder usar una máquina virtual tienes que activar la virtualización en tu equipo. Normalmente esto ya viene activado por defecto, pero no siempre es el caso. Ahora crearemso la maquina virtual. 
 
-Buscaremos el archivo de Ubuntu que nos hemos descargado anteriormente y pulsaremos en «Aceptar».
-Activar la virtualización
-
-Para poder usar una máquina virtual tienes que activar la virtualización en tu equipo. Normalmente esto ya viene activado por defecto, pero no siempre es el caso. Puedes proceder con los siguientes pasos, pero si en algún momento te pide activarlo puedes buscar como hacerlo en los manuales de tu equipo, o buscar en la BIOS la opción «Intel Virtualization Technology» si tu ordenador cuenta con un procesador Intel o «SVM Mode» si tu ordenador cuenta con un procesador AMD de tu ordenador y activarlo.
-
-![paso 1](ubuntu4.png)
+![paso 1](ubuntu6.png)
 
 ### 5. Instalación del Ubuntu en el ordenador
 
@@ -94,7 +93,7 @@ Para poder usar una máquina virtual tienes que activar la virtualización en tu
 
  El último paso para poder disfrutar de un sistema operativo Linux en nuestra máquina virtual es la instalación del sistema operativo. Para comenzar dicha instalación debemos seleccionar ,»Iniciar», teniendo marcada la máquina virtual configurada anteriormente.
 
-![paso 1](ubuntu5.png)
+![paso 1](ubuntu7.png)
 
 #### 6.)
 
@@ -106,64 +105,54 @@ Para poder usar el ratón fuera de nuestra máquina virtual debemos pulsar la te
 
 Cuando el chequeo termine, obtendremos la pantalla mostrada en la siguiente imagen. En ella nos pregunta si queremos probar o directamente instalar Ubuntu. Pulsaremos en probarlo y más adelante lo instalaremos. Cabe destacar que puedes elegir el idioma que prefieras seleccionándolo a la izquierda.
 
-![paso 1](ubuntu6.png)
+![paso 1](ubuntux.png)
 
 #### 7.)
 
 Se iniciará Ubuntu. Ahora mismo lo podríamos usar como si ya estuviese instalado, pero nada de esto se nos guardaría, por lo que vamos a proceder a instalarlo. Antes de esto, para hacer más cómoda la instalación, vamos a cambiar la resolución de la ventana para poder verla a un tamaño normal. 
 
-Para esto pulsaremos en los tres iconos de arriba a la derecha y en el menú desplegable que aparece pulsaremos en «Configuración» como vemos en la siguiente imagen:
-
-![paso 1](ubuntu7.png)
-
-#### 8.)
-
-Una vez se abra la configuración, en el menú de la izquierda bajaremos hasta encontrar el apartado «Monitores». Pulsaremos y nos saldrán 4 opciones que modificar. En este caso nos centraremos en la resolución, la cual puedes cambiar a tu gusto.
+Para esto pulsaremos en los tres iconos de arriba a la derecha y en el menú desplegable que aparece pulsaremos en «Configuración» .Una vez se abra la configuración, en el menú de la izquierda bajaremos hasta encontrar el apartado «Monitores». Pulsaremos y nos saldrán 4 opciones que modificar. En este caso nos centraremos en la resolución, la cual puedes cambiar a tu gusto.
 
 Tras cambiar la resolución, si todo se ve correctamente, le indicamos que queremos «Mantener cambios» y cerramos la ventana de configuración.
 
-![paso 1](ubuntu8.png)
+![paso 1](5.png)
 
-#### 9.)
+#### 8.)
 
 Una vez de nuevo en el escritorio, veremos un icono llamado «Instalar Ubuntu 20.04.1 LTS». Pulsaremos sobre él para la iniciar la instalación. En el instalador como vemos en las siguientes imágenes, lo primero que nos pedirá será el idioma y la configuración del teclado. 
 
 Normalmente, si estás conectado a internet ambos se detectarán automáticamente, pero si quieres otra configuración, podrás cambiarla sin ningún problema.
 
-![paso 1](ubuntu9.png)
+![paso 1](instalacion1.png)
 
-#### 10.) 
+![paso 1](instalacion2.png)
+
+#### 9.) 
 
 En el siguiente paso nos preguntará qué tipo de instalación queremos hacer. En este caso seleccionaremos la instalación normal, con actualizaciones de Ubuntu. Puede que al realizar este paso, la ventana se vuelva pequeña de nuevo. Si esto es así, sin cerrar la ventana de instalación, vuelve a realizar los pasos que se indicaron antes para cambiar la resolución.
 
 Tras esto, el instalador nos pregunta dónde queremos instalar Ubuntu. Aquí seleccionaremos que queremos «Borrar el disco e instalar Ubuntu». Cabe destacar que esto no borrará nada del disco de tu ordenador personal, si no que borrará el disco virtual que creamos previamente en VirtualBox.
 
-![paso 1](ubuntu10.png)
+![paso 1](instalacion4.png)
 
-#### 11.) 
+![paso 1](instalacion5.png)
+
+#### 10.) 
 
 El instalador nos pedirá que indiquemos donde nos encontramos para ajustar nuestra zona horaria. Bastará con pulsar el país en el que te encuentres, para que este ajuste la zona horaria pertinente.
 
-![paso 1](ubuntu14.png)
+![paso 1](instalacion6.png)
 
-#### 12.)  
+#### 11.)  
 
 Como siguiente y último paso antes del inicio de la instalación, Ubuntu nos solicitará el nombre del equipo, el nombre de usuario y la contraseña. Rellenaremos el formulario e indicaremos si queremos o no poner la contraseña al iniciar una sesión. Cabe destacar que debes poner una contraseña que posteriormente recuerdes, ya que esta se necesitará para instalar programas y administrar tu sistema operativo.
 
-![paso 1](ubuntu11.png)
+![paso 1](ubuntu7.png)
 
-#### 13.) 
+#### 12.) 
 
 Ya completado este paso, comenzará la instalación. Tendremos que esperar hasta que finalice y cuando esta termine reiniciar la máquina virtual. Al reiniciar la máquina virtual, antes de que se apague la máquina nos pedirá que extraigamos el medio de instalación y pulsemos «Enter». Como es una máquina virtual y no tenemos medio de instalación simplemente pulsaremos la tecla «Intro».
 
-![paso 1](ubuntu12.png)
-
-#### 14.)  
-
-Una vez reiniciado el equipo, probablemente nos toque volver a modificar por última vez la resolución de la ventana. Para esto seguiremos los mismos pasos que hemos indicado antes.
-
-Ya tendremos el sistema Linux instalado y completamente funcional. Ubuntu nos mostrará ahora ciertas configuraciones. Si no quieres configurar ninguno de estos servicios pulsa sobre «Omitir» y «Siguiente» en la esquina superior derecha.
-
-![paso 1](ubuntu13.png)
+![paso 1](ubuntufinal.png)
 
 ##### Una vez llegado a este punto, ya tendrás la máquina virtual completamente funcional. 
