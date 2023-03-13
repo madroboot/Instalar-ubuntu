@@ -130,7 +130,7 @@ Una vez de nuevo en el escritorio, veremos un icono llamado «Instalar Ubuntu 20
 
 Normalmente, si estás conectado a internet ambos se detectarán automáticamente, pero si quieres otra configuración, podrás cambiarla sin ningún problema.
 
-![paso 1](ubuntupaso9.png)
+![paso 1](ubuntu9.png)
 
 #### 10.) 
 
@@ -138,25 +138,25 @@ En el siguiente paso nos preguntará qué tipo de instalación queremos hacer. E
 
 Tras esto, el instalador nos pregunta dónde queremos instalar Ubuntu. Aquí seleccionaremos que queremos «Borrar el disco e instalar Ubuntu». Cabe destacar que esto no borrará nada del disco de tu ordenador personal, si no que borrará el disco virtual que creamos previamente en VirtualBox.
 
-![paso 1]()
+![paso 1](ubuntu10.png)
 
 #### 11.) 
 
 El instalador nos pedirá que indiquemos donde nos encontramos para ajustar nuestra zona horaria. Bastará con pulsar el país en el que te encuentres, para que este ajuste la zona horaria pertinente.
 
-![paso 1]()
+![paso 1](ubuntu11.png)
 
 #### 12.)  
 
 Como siguiente y último paso antes del inicio de la instalación, Ubuntu nos solicitará el nombre del equipo, el nombre de usuario y la contraseña. Rellenaremos el formulario e indicaremos si queremos o no poner la contraseña al iniciar una sesión. Cabe destacar que debes poner una contraseña que posteriormente recuerdes, ya que esta se necesitará para instalar programas y administrar tu sistema operativo.
 
-![paso 1]()
+![paso 1](ubuntu12.png)
 
 #### 13.) 
 
 Ya completado este paso, comenzará la instalación. Tendremos que esperar hasta que finalice y cuando esta termine reiniciar la máquina virtual. Al reiniciar la máquina virtual, antes de que se apague la máquina nos pedirá que extraigamos el medio de instalación y pulsemos «Enter». Como es una máquina virtual y no tenemos medio de instalación simplemente pulsaremos la tecla «Intro».
 
-![paso 1]()
+![paso 1](ubuntu13.png)
 
 #### 14.)  
 
@@ -164,6 +164,6 @@ Una vez reiniciado el equipo, probablemente nos toque volver a modificar por úl
 
 Ya tendremos el sistema Linux instalado y completamente funcional. Ubuntu nos mostrará ahora ciertas configuraciones. Si no quieres configurar ninguno de estos servicios pulsa sobre «Omitir» y «Siguiente» en la esquina superior derecha.
 
-![paso 1]()
+![paso 1](ubuntu14.png)
 
 ##### Una vez llegado a este punto, ya tendrás la máquina virtual completamente funcional. 
