@@ -71,13 +71,13 @@ En el siguiente paso, debemos indicarle la memoria principal (RAM) que tendrá n
 
 Todos los formatos presentados son válidos para nuestro uso. Básicamente las principales características de estos son que VDI es el formato predeterminado de VirtualBox.
 
-En este punto ya tenemos creada nuestra máquina virtual con las opciones seleccionadas en los pasos anteriores. En la pantalla principal podemos ver como aparecen todas las características que hemos seleccionado en el proceso de creación de la máquina, aunque nos faltan algunas cosas por configurar. 
-
-Los puntos que nos quedan por completar, se configurarán en el proceso de instalación del sistema operativo. La forma de iniciar este proceso será accediendo al menú «Configuración».
-
 ![paso 1](ubuntu3.png)
 
+En este punto ya tenemos creada nuestra máquina virtual con las opciones seleccionadas en los pasos anteriores. En la pantalla principal podemos ver como aparecen todas las características que hemos seleccionado en el proceso de creación de la máquina, aunque nos faltan algunas cosas por configurar. 
+
 ![paso 1](ubuntu4.png)
+
+Los puntos que nos quedan por completar, se configurarán en el proceso de instalación del sistema operativo. La forma de iniciar este proceso será accediendo al menú «Configuración».
 
 ![paso 1](ubuntu5.png)
 
