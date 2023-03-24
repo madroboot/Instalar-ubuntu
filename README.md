@@ -156,3 +156,13 @@ Ya completado este paso, comenzará la instalación. Tendremos que esperar hasta
 ![paso 1](instalacionfinal.png)
 
 ##### Una vez llegado a este punto, ya tendrás la máquina virtual completamente funcional. 
+
+## Actualización del sistema
+
+Para actualizar el sistema de Ubuntu haremos uso de la maquina virtual "virtual box"
+
+### Actualización desde linea de comandos
+
+### Actualización desde el interfaz gráfico
+
+### Actualización con synaptic
