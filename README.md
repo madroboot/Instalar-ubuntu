@@ -157,11 +157,11 @@ Ya completado este paso, comenzará la instalación. Tendremos que esperar hasta
 
 ##### Una vez llegado a este punto, ya tendrás la máquina virtual completamente funcional. 
 
-## Actualización del sistema
+# Actualización del sistema
 
 Para actualizar el sistema de Ubuntu haremos uso de la maquina virtual "virtual box"
 
-### Actualización desde linea de comandos
+## Actualización desde linea de comandos
 
 ![1](https://user-images.githubusercontent.com/122264680/227876705-2ca63072-cc22-4bd0-a962-c8f7f726d2bc.png)
 ![2](https://user-images.githubusercontent.com/122264680/227876758-1424d7e4-d47e-4667-a07f-4c52ecd8a059.png)
@@ -184,7 +184,7 @@ Para actualizar el sistema de Ubuntu haremos uso de la maquina virtual "virtual 
 ![19](https://user-images.githubusercontent.com/122264680/227877071-de173bab-ad04-4d3a-b262-a98fcf37dab3.png)
 
 
-### Actualización desde el interfaz gráfico
+## Actualización desde el interfaz gráfico
 
 ![1](https://user-images.githubusercontent.com/122264680/227880849-2f4fa240-508f-41d3-a97f-345888e71a4d.png)
 ![2](https://user-images.githubusercontent.com/122264680/227880856-68f76c16-b8d2-45a7-ba78-cf94bc6daaa6.png)
@@ -194,7 +194,7 @@ Para actualizar el sistema de Ubuntu haremos uso de la maquina virtual "virtual 
 ![6](https://user-images.githubusercontent.com/122264680/227881028-555c8006-fdac-4c80-b4f4-91e1cd139d71.png)
 ![7](https://user-images.githubusercontent.com/122264680/227880931-ebeaf3b4-8671-4413-b56f-0733fad694e1.png)
 
-### Actualización con synaptic
+## Actualización con synaptic
 
 ![1](https://user-images.githubusercontent.com/122264680/227889755-21300d4d-9583-4d02-89f7-cb1010bdf17b.png)
 ![2](https://user-images.githubusercontent.com/122264680/227889756-56ca079f-bd26-4fe7-88dd-897ac4d8a277.png)
@@ -207,7 +207,7 @@ Para actualizar el sistema de Ubuntu haremos uso de la maquina virtual "virtual 
 
 #  Instalación de software
 
-### Con ubuntu store
+## Con ubuntu store
 
 ![1](https://user-images.githubusercontent.com/122264680/227887783-66f15df6-a727-401a-991d-bbf4a3198462.png)
 ![2](https://user-images.githubusercontent.com/122264680/227887786-12b54e78-87da-40e1-a67c-8b446d99407f.png)
@@ -216,7 +216,7 @@ Para actualizar el sistema de Ubuntu haremos uso de la maquina virtual "virtual 
 ![5](https://user-images.githubusercontent.com/122264680/227887797-786c54c6-2e72-4d0e-b163-615c4e905373.png)
 ![6](https://user-images.githubusercontent.com/122264680/227887802-1ae2fff1-2d3d-4c24-aa34-9027d84fc230.png)
 
-### Mediante SYNAPTIC 
+## Mediante SYNAPTIC 
 
 ![1](https://user-images.githubusercontent.com/122264680/227887706-14f0693f-ea6d-46b6-b3bf-453d24f659aa.png)
 ![2](https://user-images.githubusercontent.com/122264680/227887711-ad405dd7-590e-472e-98f7-49cfe65fe987.png)
@@ -230,7 +230,7 @@ Para actualizar el sistema de Ubuntu haremos uso de la maquina virtual "virtual 
 ![10](https://user-images.githubusercontent.com/122264680/227887731-d19cbae2-0725-4eda-801f-156d85c0be8a.png)
 
 
-### Con APT
+## Con APT
 
 ![1](https://user-images.githubusercontent.com/122264680/227882471-94eb83ba-6b25-4a6c-9fb3-bc41405aceb9.png)
 ![2](https://user-images.githubusercontent.com/122264680/227882476-f7d37c4a-ab7d-439f-8f96-3a88911ba710.png)
