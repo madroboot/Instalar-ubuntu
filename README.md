@@ -202,7 +202,11 @@ Ya sabemos actualizar usando la termial, ahora podemos simplificar el proceso ut
 ![6](https://user-images.githubusercontent.com/122264680/227881028-555c8006-fdac-4c80-b4f4-91e1cd139d71.png)
 ![7](https://user-images.githubusercontent.com/122264680/227880931-ebeaf3b4-8671-4413-b56f-0733fad694e1.png)
 
+Ahora ya tendríamos actualizado nuestro sistema operativo :)
+
 ## Actualización con synaptic
+
+Otra forma de actualizar es utilizadno la aplicación "SYNAPTIC", esta es una aplicación que incluye una serie de software y programas varíos que pueden aumentar las herramientas de nuestro ordenador. Podemos renovar nuestro equipo utilizando esta aplicación y esto incluye la acualización del sistema operativo.
 
 ![1](https://user-images.githubusercontent.com/122264680/227889755-21300d4d-9583-4d02-89f7-cb1010bdf17b.png)
 ![2](https://user-images.githubusercontent.com/122264680/227889756-56ca079f-bd26-4fe7-88dd-897ac4d8a277.png)
@@ -213,9 +217,15 @@ Ya sabemos actualizar usando la termial, ahora podemos simplificar el proceso ut
 ![7](https://user-images.githubusercontent.com/122264680/227889774-f2b6fa93-6d86-4327-a9ed-2220a6567d29.png)
 ![8](https://user-images.githubusercontent.com/122264680/227889777-74b4570a-02af-4469-ad12-607e684d6d67.png)
 
+Ahora que ya conocemos todas las formas de actualizar el sistema operativo Ubuntu podemos pasar al siguiente nivel.
+
 #  Instalación de software
 
+Para tener un sistema plenamente operativo tnemos que tener la posibilidad de implementar nuevas aplicaciónes y herramientas que se ofrecen en Internet pero que no estan instaladas, para ello podemos utilizar distintos metodos.
+
 ## Con ubuntu store
+
+La forma mas facil de instalar software es haciendo uso de la herramienta que nos da Ubuntu (Ubuntu Store), aquí encontraremos un gran numero de aplicaciones que podremos descargar en el ordenador y que estan recomendadas por el sistema operativo, entre ellas hay aplicaciones muy útiles, para poder usar la ubuntu store habrá que seguir estos pasos:
 
 ![1](https://user-images.githubusercontent.com/122264680/227887783-66f15df6-a727-401a-991d-bbf4a3198462.png)
 ![2](https://user-images.githubusercontent.com/122264680/227887786-12b54e78-87da-40e1-a67c-8b446d99407f.png)
@@ -224,7 +234,11 @@ Ya sabemos actualizar usando la termial, ahora podemos simplificar el proceso ut
 ![5](https://user-images.githubusercontent.com/122264680/227887797-786c54c6-2e72-4d0e-b163-615c4e905373.png)
 ![6](https://user-images.githubusercontent.com/122264680/227887802-1ae2fff1-2d3d-4c24-aa34-9027d84fc230.png)
 
+Si no has encontrado la aplicación que buscabas puedes probar otro metodo.
+
 ## Mediante SYNAPTIC 
+
+En este caso utilizaremos la aplicación synoptic para instalar el software que queramos, se nos presentará mucho softwre clasificado por utilidad y finalidad.
 
 ![1](https://user-images.githubusercontent.com/122264680/227887706-14f0693f-ea6d-46b6-b3bf-453d24f659aa.png)
 ![2](https://user-images.githubusercontent.com/122264680/227887711-ad405dd7-590e-472e-98f7-49cfe65fe987.png)
@@ -237,8 +251,12 @@ Ya sabemos actualizar usando la termial, ahora podemos simplificar el proceso ut
 ![9](https://user-images.githubusercontent.com/122264680/227887727-26cdb3aa-a351-44e4-8756-6be4d9224cd9.png)
 ![10](https://user-images.githubusercontent.com/122264680/227887731-d19cbae2-0725-4eda-801f-156d85c0be8a.png)
 
+Sin embargo, aunque tengamos un abanico inmenso de software para descargar puede ser que no hayamos encontrado lo que necesitabamos.
+Pero no pasa nada, en internet hay todo tipo de software que podmeos instalar con la terminal.
 
 ## Con APT
+
+Utilizando la terminal  podremos instalar cualquier aplicacion que encontremos, solo tenemos que seguir los pasos que se indican a continuación aunque en algunos casos para cada software habrá que seguir un proceso distinto, pero tranquilo, normalmente las propias empresas te indican que comandoas usar para instalar su software en cualquier sistema operativo lliurex (como ubuntu), sino se puede encontrar una guia de instalación que haya compartido algun internauta.
 
 ![1](https://user-images.githubusercontent.com/122264680/227882471-94eb83ba-6b25-4a6c-9fb3-bc41405aceb9.png)
 ![2](https://user-images.githubusercontent.com/122264680/227882476-f7d37c4a-ab7d-439f-8f96-3a88911ba710.png)
@@ -246,3 +264,5 @@ Ya sabemos actualizar usando la termial, ahora podemos simplificar el proceso ut
 ![4](https://user-images.githubusercontent.com/122264680/227882481-b3c80400-5092-440c-91cb-37a8eea02534.png)
 ![5](https://user-images.githubusercontent.com/122264680/227882483-e8c936d2-195c-43b0-8e8f-771c1a072499.png)
 ![6](https://user-images.githubusercontent.com/122264680/227882484-7be30386-a3b5-444d-922d-19814c67bc92.png)
+
+Una vez llegado a este punto ya conocemos todo lo necesario para poder utilizar Ubuntu como nuevo sistema operativo, aunque siempre hay cosas nuevas que aprender esta guia busca dar el conocimiento necesario para que los usuarios sean mas libres, animamos a que todos las personas descubran nuevas formas de ampliar nuestaras herramientas en el mundo digital y qu elo compartan con el resto de la comunidad.
