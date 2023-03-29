@@ -161,7 +161,7 @@ Ya completado este paso, comenzará la instalación. Tendremos que esperar hasta
 
 Para actualizar el sistema de Ubuntu haremos uso de la maquina virtual "virtual box"
 
-## Actualización desde linea de comandos
+En esta guia se ha hecho un seguimiento paso a paso de como actualizar ubuntu; primero asignando un archivo ISO de 64 bits de la actualización a la maquina virtual, para continuar tendremos que configurar los parametros del simulador para hacer mas comodo usar la interfaz .
 
 ![1](https://user-images.githubusercontent.com/122264680/227876705-2ca63072-cc22-4bd0-a962-c8f7f726d2bc.png)
 ![2](https://user-images.githubusercontent.com/122264680/227876758-1424d7e4-d47e-4667-a07f-4c52ecd8a059.png)
@@ -175,6 +175,13 @@ Para actualizar el sistema de Ubuntu haremos uso de la maquina virtual "virtual 
 ![10](https://user-images.githubusercontent.com/122264680/227877044-1b5142d4-d76c-460c-857c-19a433b2b3e9.png)
 ![11](https://user-images.githubusercontent.com/122264680/227877042-7d47209d-ff6b-4ae7-a82b-d44f4a8a7ce3.png)
 ![12](https://user-images.githubusercontent.com/122264680/227877038-ca3fcd85-b306-40a5-ac2c-6988e927bb97.png)
+
+Una vez hallamos preparado Ubuntu para la actualización ya podremos empezar con la instalación de la nueva versión. Para una instalacióń mas exacta -e independiente del mundo digital- usaremos la linea de comandos.
+
+## Actualización desde linea de comandos
+
+Este es el metodo mas tedioso ,pero siguiendo los pasos que se indican en las imagenes podremos disfrutar de la ultima versión de Ubuntu en apenas 10 minutos con la terminal.
+
 ![13](https://user-images.githubusercontent.com/122264680/227877037-dcf24118-b248-444c-8858-ce87624971f2.png)
 ![14](https://user-images.githubusercontent.com/122264680/227877033-8f40c159-abc0-4327-b4a0-c3866b87f8ab.png)
 ![15](https://user-images.githubusercontent.com/122264680/227877088-7b29e189-838e-49b2-8bb6-dc29b2988dc6.png)
@@ -183,8 +190,9 @@ Para actualizar el sistema de Ubuntu haremos uso de la maquina virtual "virtual 
 ![18](https://user-images.githubusercontent.com/122264680/227877076-c078de6d-9ff3-458c-88de-a7e5f98ce5ab.png)
 ![19](https://user-images.githubusercontent.com/122264680/227877071-de173bab-ad04-4d3a-b262-a98fcf37dab3.png)
 
-
 ## Actualización desde el interfaz gráfico
+
+Ya sabemos actualizar usando la termial, ahora podemos simplificar el proceso utilizando la propia interfaz de Ubuntu, para lograrlo seguiremos los pasos que hay a continuación:
 
 ![1](https://user-images.githubusercontent.com/122264680/227880849-2f4fa240-508f-41d3-a97f-345888e71a4d.png)
 ![2](https://user-images.githubusercontent.com/122264680/227880856-68f76c16-b8d2-45a7-ba78-cf94bc6daaa6.png)
